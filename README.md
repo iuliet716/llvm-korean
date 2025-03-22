@@ -23,7 +23,7 @@ cmake -S llvm -B build -G <generator> [options]
 
 - -G : 빌드 시스템의 generator 지정 (e.g. Ninja, UNIX Makefiles, Visual Studio, Xcode)
 
-- -target : LLVM Project 전체가 아닌 필요한 부분만 빌드하도록 설
+- -target : LLVM Project 전체가 아닌 필요한 부분만 빌드하도록 설정
 
 ### common options
 - -DLLVM_ENABLE_PROJECTS : 추가로 빌드하고자 하는 LLVM subprojects 를 세미콜론(;) 으로 구분지어 작성  
